@@ -1,0 +1,34 @@
+{
+  "buildCommand": "",
+  "devCommand": "python -m http.server 8000",
+  "outputDirectory": ".",
+  "rewrites": [
+    {
+      "source": "/:page",
+      "destination": "/:page.html"
+    },
+    {
+      "source": "/:page/",
+      "destination": "/:page.html"
+    },
+    {
+      "source": "/programmes/:program",
+      "destination": "/programmes/:program.html"
+    },
+    {
+      "source": "/programmes/:program/",
+      "destination": "/programmes/:program.html"
+    }
+  ],
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=3600"
+        }
+      ]
+    }
+  ]
+}
