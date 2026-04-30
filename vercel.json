@@ -7,6 +7,18 @@
   "trailingSlash": false,
   "rewrites": [
     {
+      "source": "/lms",
+      "destination": "/login.html"
+    },
+    {
+      "source": "/lms/",
+      "destination": "/login.html"
+    },
+    {
+      "source": "/lms.html",
+      "destination": "/login.html"
+    },
+    {
       "source": "/:page",
       "destination": "/:page.html"
     },
