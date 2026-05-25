@@ -115,7 +115,7 @@ srcFiles.forEach(file => {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>${title} - Traingogy</title>
-    <link rel="icon" href="images/cropped-509f3b_feb28b364d7c48fda5c8f7cb95e32ad1mv2-32x32.webp" sizes="32x32">
+    <link rel="icon" href="images/cropped-509f3b_feb28b364d7c48fda5c8f7cb95e32ad1mv2-32x32.webp">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -156,7 +156,7 @@ ${categoriesHtml}
 
 <footer class="site-footer">
     <img src="images/509f3b_feb28b364d7c48fda5c8f7cb95e32ad1mv2.webp" alt="Traingogy Logo">
-    <p>© 2024 Traingogy All Rights Reserved</p>
+    <p>© Traingogy All Rights Reserved<br><span style="opacity: 0.6; font-size: 0.85em;">Developed by skillware4u</span></p>
 </footer>
 <script src="js/main.js"></script>
 </body>
